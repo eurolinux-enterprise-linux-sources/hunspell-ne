@@ -1,7 +1,7 @@
 Name: hunspell-ne
 Summary: Nepali hunspell dictionaries
 Version: 20080425
-Release: 8%{?dist}
+Release: 9%{?dist}
 Source: http://nepalinux.org/downloads/ne_NP_dict.zip
 Group: Applications/Text
 URL: http://nepalinux.org/downloads
@@ -40,6 +40,9 @@ popd
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 20080425-9
+- Mass rebuild 2013-12-27
+
 * Wed May 29 2013 Parag <pnemade AT redhat DOT com> - 20080425-8
 - Removed BR:dos2unix and instead use sed (rh# 967638)
 
